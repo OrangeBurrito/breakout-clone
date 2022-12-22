@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --white: #C1C1C1;
+  --black: #111316;
+}
+
+body {
+  margin: 0;
+  font-family: 'Menlo', 'Cascadia Code', monospace;
+  color: var(--white);
+  background: var(--black);
+}
+
+header {
+  padding: 0.5rem 1rem;
+}
+
+canvas {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  width: calc(100vw - 2rem);
+  min-height: 300px;
+  margin: 0 1rem;
+  border: 1px solid var(--white);
+}
