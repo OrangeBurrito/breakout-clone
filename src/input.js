@@ -1,4 +1,4 @@
-export function createInputHandler() {
+export default () => {
 	let keys = []
 
 	window.addEventListener('keydown', e => {
