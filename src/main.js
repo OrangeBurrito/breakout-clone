@@ -6,7 +6,7 @@ ctx.fillStyle = "#eee"
 
 const game = createGame(ctx)
 
-// animate()
+animate()
 
 function animate() {
 	ctx.clearRect(0,0, ctx.canvas.width, ctx.canvas.height)
